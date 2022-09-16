@@ -42,6 +42,10 @@ body {
     padding: 5px;
 }
 
+.nav a:hover {
+    font-weight: 500;
+}
+
 /* HERO SECTION */
 
 .hero {
@@ -77,6 +81,7 @@ body {
     border: none;
     border-radius: 8px;
     flex-shrink: 0;
+    cursor: pointer;
 }
 
 .left img {
@@ -93,6 +98,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 50px 70px;
+    background: floralwhite;
 }
 
 .infotitle {
@@ -123,7 +129,7 @@ body {
     margin: 20px 0 10px 0;
     padding: 2px;
     border-radius: 25px;
-    outline: 3px solid #3882f6;
+    outline: 3px solid #38766e;
 }
 
 /* QUOTE */
@@ -161,6 +167,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 10px;
+    background: #f5f6f6;
 }
 .callbox {
     max-width: 900px;
@@ -177,7 +184,7 @@ body {
 .callhead {
     color: #F9FAF8;
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .calldesc {
@@ -187,6 +194,7 @@ body {
 
 .callbox .signup {
     border: 2px solid #F9FAF8;
+    cursor: pointer;
 }
 
 /* FOOTER */
