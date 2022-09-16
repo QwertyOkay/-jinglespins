@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&display=swap");
 .modal__backdrop {
   position: fixed;
   top: 0;
@@ -375,7 +376,7 @@ u, ins {
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .main {
@@ -393,6 +394,7 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  border: 1px solid;
 }
 
 .logo {
@@ -427,10 +429,19 @@ body {
 }
 
 .title {
-  font-size: 48px;
+  font-size: 40px;
   font-weight: 700;
   line-height: 1em;
   color: #F9FAF8;
+  margin-right: 20px;
+}
+@media screen and (min-width: 1200px) {
+  .title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1em;
+    color: #F9FAF8;
+  }
 }
 
 .subtitle {
@@ -452,9 +463,16 @@ body {
 }
 
 .left img {
-  width: 400px;
+  width: 120px;
   height: auto;
   border-radius: 15px;
+}
+@media screen and (min-width: 1200px) {
+  .left img {
+    width: 400px;
+    height: auto;
+    border-radius: 15px;
+  }
 }
 
 /* INFORMATION */
@@ -491,11 +509,20 @@ body {
 }
 
 .info img {
-  width: 150px;
+  width: 100px;
   margin: 20px 0 10px 0;
   padding: 2px;
   border-radius: 25px;
   outline: 3px solid #38766e;
+}
+@media screen and (min-width: 1200px) {
+  .info img {
+    width: 150px;
+    margin: 20px 0 10px 0;
+    padding: 2px;
+    border-radius: 25px;
+    outline: 3px solid #38766e;
+  }
 }
 
 /* QUOTE */
@@ -541,7 +568,19 @@ body {
   justify-content: space-between;
   align-items: center;
   gap: 30px;
-  padding: 40px 100px;
+  padding: 40px 85px;
+}
+@media screen and (min-width: 1200px) {
+  .callbox {
+    max-width: 900px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding: 40px 100px;
+  }
 }
 
 .callhead {
@@ -571,4 +610,8 @@ body {
 .footer a {
   text-decoration: none;
   color: #E5E7EB;
+}
+
+p {
+  font-size: 18px;
 }/*# sourceMappingURL=main.css.map */
