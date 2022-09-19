@@ -33,9 +33,6 @@ a {
   text-decoration:none;
 //   color:$main;
   transition:.5s ease;
-  &:hover {
-    color:$main-dark;
-  }
 }
 
 .form {
@@ -68,10 +65,10 @@ a {
     text-align:center;
     cursor:pointer;
     transition:.5s ease;
-    &:hover {
-      background:$main-dark;
-      color:$white;
-    }
+    // &:hover {
+    //   background:$main-dark;
+    //   color:$white;
+    // }
   }
   .active a {
     background:$main;
