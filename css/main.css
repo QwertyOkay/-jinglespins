@@ -884,6 +884,10 @@ body {
   }
 }
 
+.mt40 {
+  margin-top: -40px !important;
+}
+
 /* Colors */
 * {
   margin: 0;
