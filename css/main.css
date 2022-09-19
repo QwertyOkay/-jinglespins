@@ -874,6 +874,16 @@ body {
   }
 }
 
+.footer-top {
+  top: 100%;
+}
+
+@media screen and (min-width: 1200px) {
+  .footer-top {
+    top: 91.2%;
+  }
+}
+
 /* Colors */
 * {
   margin: 0;

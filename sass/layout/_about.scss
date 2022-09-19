@@ -87,3 +87,10 @@
     font-size: 22px!important;
      }
 }
+
+.footer-top {
+  top: 100%;
+  @media screen and (min-width: 1200px) {
+    top: 91.2%;
+  }
+}
