@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&display=swap");
+@import url(https://fonts.googleapis.com/css?family=Raleway);
 .modal__backdrop {
   position: fixed;
   top: 0;
@@ -350,6 +351,7 @@ html {
 a {
   display: inline-block;
   text-decoration: none;
+  color: currentcolor;
 }
 
 a:hover {
@@ -400,6 +402,7 @@ body {
 }
 
 .main {
+  background-color: #f5f6f6;
   width: 100vww;
   height: auto;
   display: flex;
@@ -408,7 +411,7 @@ body {
 
 /* HEADER */
 .header {
-  background-color: #4d694e;
+  background-color: #8fc391;
   margin: 0;
   padding: 15px 0;
   display: flex;
@@ -430,7 +433,7 @@ body {
   margin: 10px;
   border: 3px solid #999999d4;
   border-radius: 25px;
-  background-color: #33471d;
+  background-color: #488669;
   padding: 8px;
   box-shadow: 0px 2px 1px black;
 }
@@ -595,7 +598,7 @@ body {
   background-color: #3882f6;
   border-radius: 10px;
   display: flex;
-  justify-content: space-between;
+  justify-content: inherit;
   align-items: center;
   gap: 30px;
   padding: 40px 85px;
@@ -783,9 +786,9 @@ body {
   /* line-height: 70vh; */
   /* line-height: 37vh; */
   width: 100vw;
-  height: 74vh;
-  padding: 66px;
-  font-size: 24px;
+  height: 66vh;
+  padding: 22px;
+  font-size: 22px;
 }
 
 @media screen and (min-width: 1200px) {
@@ -830,5 +833,319 @@ body {
 
 .margin-l {
   margin-left: 37px;
+}
+
+.p-priv {
+  padding: 20px !important;
+  font-size: 12px !important;
+}
+
+@media screen and (min-width: 1200px) {
+  .p-priv {
+    padding: 40px !important;
+    font-size: 20px !important;
+  }
+}
+
+.p-priv2 {
+  padding: 20px !important;
+  font-size: 10px !important;
+}
+
+@media screen and (min-width: 1200px) {
+  .p-priv2 {
+    padding: 40px !important;
+    font-size: 18px !important;
+  }
+}
+
+.p-priv3 {
+  padding: 30px !important;
+  font-size: 18px !important;
+}
+
+@media screen and (min-width: 1200px) {
+  .p-priv3 {
+    padding: 86px !important;
+    font-size: 22px !important;
+  }
+}
+
+/* Colors */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  font-family: Raleway, sans-serif;
+  background-color: #fff;
+}
+
+footer {
+  width: 100%;
+  display: inline-block;
+  height: 70px;
+  background-color: #999;
+}
+
+footer .copyright {
+  width: 50%;
+  float: left;
+}
+
+@media (max-width: 600px) {
+  footer .copyright {
+    width: 100%;
+  }
+}
+
+footer .copyright p {
+  padding-left: 10%;
+  color: white;
+  line-height: 70px;
+  background-color: #CC231E;
+  letter-spacing: 1px;
+  height: 70px;
+  line-height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+@media (max-width: 600px) {
+  footer .copyright p {
+    text-align: center;
+    padding: 0;
+  }
+}
+
+footer .social {
+  width: 50%;
+  float: right;
+}
+
+@media (max-width: 600px) {
+  footer .social {
+    width: 100%;
+  }
+}
+
+footer .social a {
+  float: left;
+  line-height: 70px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+
+footer .social a:hover {
+  background-color: #CC231E;
+}
+
+.linked {
+  background-color: #1E83AE;
+  font-size: 0.8em;
+  width: 20%;
+}
+
+.face {
+  background-color: #0F8A5F;
+  font-size: 0.8em;
+  width: 20%;
+}
+
+.tweet {
+  background-color: #3DACDD;
+  font-size: 0.8em;
+  width: 20%;
+}
+
+.support {
+  background-color: #34A65F;
+  width: 40%;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html {
+  overflow-y: scroll;
+}
+
+body {
+  background: #c1bdba;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  transition: .5s ease;
+}
+
+a:hover {
+  color: #179b77;
+}
+
+.form {
+  background: rgba(19, 35, 47, 0.9);
+  padding: 40px;
+  max-width: 600px;
+  margin: 40px auto;
+  border-radius: 4px;
+  box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+}
+
+.tab-group {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 40px 0;
+}
+
+.tab-group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.tab-group li a {
+  display: block;
+  text-decoration: none;
+  padding: 15px;
+  background: rgba(160, 179, 176, 0.25);
+  color: #a0b3b0;
+  font-size: 20px;
+  float: left;
+  width: 50%;
+  text-align: center;
+  cursor: pointer;
+  transition: .5s ease;
+}
+
+.tab-group li a:hover {
+  background: #179b77;
+  color: #ffffff;
+}
+
+.tab-group .active a {
+  background: #1ab188;
+  color: #ffffff;
+}
+
+.tab-content > div:last-child {
+  display: none;
+}
+
+h1 {
+  text-align: center;
+  color: #ffffff;
+  font-weight: 300;
+  margin: 0 0 40px;
+}
+
+label {
+  position: absolute;
+  transform: translateY(6px);
+  left: 13px;
+  color: rgba(255, 255, 255, 0.5);
+  transition: all 0.25s ease;
+  pointer-events: none;
+  font-size: 22px;
+}
+
+label .req {
+  margin: 2px;
+  color: #1ab188;
+}
+
+label.active {
+  transform: translateY(50px);
+  left: 2px;
+  font-size: 14px;
+}
+
+label.active .req {
+  opacity: 0;
+}
+
+label.highlight {
+  color: #ffffff;
+}
+
+input, textarea {
+  font-size: 22px;
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 5px 10px;
+  background: none;
+  background-image: none;
+  border: 1px solid #a0b3b0;
+  color: #ffffff;
+  border-radius: 0;
+  transition: border-color .25s ease, box-shadow .25s ease;
+}
+
+input:focus, textarea:focus {
+  outline: 0;
+  border-color: #1ab188;
+}
+
+textarea {
+  border: 2px solid #a0b3b0;
+  resize: vertical;
+}
+
+.field-wrap {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.top-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.top-row > div {
+  float: left;
+  width: 48%;
+  margin-right: 4%;
+}
+
+.top-row > div:last-child {
+  margin: 0;
+}
+
+.button {
+  border: 0;
+  outline: none;
+  border-radius: 0;
+  padding: 15px 0;
+  font-size: 2rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  background: #488669;
+  color: #ffffff;
+  transition: all 0.5s ease;
+  -webkit-appearance: none;
+}
+
+.button:hover, .button:focus {
+  background: #179b77;
+}
+
+.button-block {
+  display: block;
+  width: 100%;
+}
+
+.forgot {
+  margin-top: -20px;
+  text-align: right;
 }
 /*# sourceMappingURL=main.css.map */
